@@ -3,5 +3,5 @@
 #include <cstdint>
 
 namespace nnet {
-    std::vector<float> classify(const std::vector<uint8_t>& image);
+    std::vector<double> classify(const std::vector<uint8_t>& image);
 }
