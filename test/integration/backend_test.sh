@@ -16,4 +16,5 @@ kill $PID
 
 cat response.json | jq '.'
 
-rm response.json
+rm response.json 
+rm image.raw

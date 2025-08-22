@@ -7,7 +7,7 @@ function App() {
 
   const handleImageData = async (grayscalePixels) => {
     try {
-      const response = await fetch('http://localhost:5000/classify', {
+      const response = await fetch('http://localhost:8080/classify', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ image: grayscalePixels }),

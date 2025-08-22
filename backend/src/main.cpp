@@ -1,5 +1,5 @@
 #include "crow.h"
-#include "nnet/nnet.hpp"
+#include <nnet/nnet.hpp>
 
 int main() {
     crow::SimpleApp app;
